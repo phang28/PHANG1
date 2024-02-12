@@ -1,0 +1,149 @@
+:root{
+    background-color: rgb(187, 224, 242);  
+  }
+  
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+@font-face {
+   font-family: Odin-rounded;
+   src: url(odin-rounded.regular.otf);
+}
+
+body {
+   background-color: rgb(187, 224, 242) ;
+}
+  .header {
+   padding: 20px; 
+   text-align: center; 
+   background: rgb(187, 224, 242);   
+   display: block;
+   overflow:hidden;
+   margin-bottom:50px;
+   
+  }
+
+
+ .header h1 {
+   font-size: 40px;
+ }
+  .navbar {
+   overflow: hidden; 
+   background-color: rgb(187, 224, 242); 
+   
+ }
+ 
+ /* Style the navigation bar links */
+ .navbar a {
+   float: left; /* Make sure that the links stay side-by-side */
+   display: block; /* Change the display to block, for responsive reasons (see below) */
+   color: #F88FB0; 
+   text-align: center; 
+   font-family: Odin-rounded;
+   font-weight: 100;
+   font-size: 100px;
+   border:10px solid rgb(255, 255, 255);
+   border-radius: 10px;
+   padding: 20px 40px; 
+   text-decoration: none; 
+   margin-left:20px;
+   margin-right:20px;
+
+   transition: transform 0.3s, background-color 0.3s, color 0.3s;
+ }
+ 
+ 
+ /* Change color on hover/mouse-over */
+ .navbar a:hover {
+   transform: translateY(-10px);
+   background-color: #ffafaf; 
+   color: rgb(209, 71, 71); 
+ }
+
+
+.main {
+    position: relative;
+    min-height: 190vh;
+    background-color: #F88FB0;
+    padding:50px;
+    border-radius: 20px;
+    margin-top:50px;
+    margin-left:20px;
+    margin-right:20px;
+    
+
+}
+.description{
+  background-color: #ffffff;
+  font-family:Odin-rounded;
+  font-weight: 200;
+  padding:50px;
+  border-radius: 20px;
+  text-align:center;
+  font-size: 200px;
+}
+
+.HK {
+  width: 700px;
+  height: 600px;
+  background-color: #ffffff;
+  font-family:Odin-rounded;
+  text-align: center;
+  padding:100px;
+  margin: 50px;
+  border-radius: 10px;
+  float:left;
+}
+
+.Kuro {
+  width: 700px;
+  height: 600px;
+  background-color: #ffffff;
+  font-family:Odin-rounded;
+  text-align: center;
+  padding:100px;
+  margin: 50px;
+  border-radius: 10px;
+  float:right;
+ 
+
+}
+
+.mymelo {
+  width: 700px;
+  height: 600px;
+  background-color: #ffffff;
+  font-family:Odin-rounded;
+  text-align: center;
+  padding:100px;
+  margin: 50px;
+  border-radius: 10px;
+  float:left;
+  
+}
+
+.Kero {
+  width: 700px;
+  height: 600px;
+  background-color: #ffffff;
+  font-family:Odin-rounded;
+  text-align: center;
+  padding:80px 50px;
+  margin: 50px;
+  border-radius: 10px;
+  float:right;
+}
+
+footer {
+    font-family: Odin-rounded;
+    font-weight:100;
+    background-color: rgb(187, 224, 242) ;
+    color:#F88FB0;
+    align-items: center;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding: 50px;
+    
+     
+}
+
